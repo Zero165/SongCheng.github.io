@@ -26,23 +26,23 @@
 <meta name="description" content="智能车智能性的测试和设计方法作者：清华大学自动化系系统工程研究所副教授李力作为第一作者； 原文来源：《Artificial intelligence test: a case study of intelligent vehicles》 1.论文思路1.1论文思路​    从如何设计智能性测试任务、如何验证智能机器在测试任务中的表现的一致性以及测试指标的设定三个方面来说明智能性测试目前存在的困境；">
 <meta property="og:type" content="article">
 <meta property="og:title" content="智能车智能性的测试和设计方法">
-<meta property="og:url" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/index.html">
+<meta property="og:url" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/index.html">
 <meta property="og:site_name" content="修行之路">
 <meta property="og:description" content="智能车智能性的测试和设计方法作者：清华大学自动化系系统工程研究所副教授李力作为第一作者； 原文来源：《Artificial intelligence test: a case study of intelligent vehicles》 1.论文思路1.1论文思路​    从如何设计智能性测试任务、如何验证智能机器在测试任务中的表现的一致性以及测试指标的设定三个方面来说明智能性测试目前存在的困境；">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/blog/ScBlog/source/images/image-20210127140629374.png">
-<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/images/image-20210127161912960.png">
-<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/images/image-20210127162058271.png">
-<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/images/image-20210127163631684.png">
+<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/.%5Cimages%5Cimage-20210127140629374.png">
+<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/images/image-20210127161912960.png">
+<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/images/image-20210127162058271.png">
+<meta property="og:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/images/image-20210127163631684.png">
 <meta property="article:published_time" content="2021-01-29T12:59:42.000Z">
-<meta property="article:modified_time" content="2021-02-02T13:29:02.414Z">
+<meta property="article:modified_time" content="2021-02-02T13:33:16.221Z">
 <meta property="article:author" content="Song Cheng">
 <meta property="article:tag" content="论文研读">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/blog/ScBlog/source/images/image-20210127140629374.png">
+<meta name="twitter:image" content="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/.%5Cimages%5Cimage-20210127140629374.png">
 
 
-<link rel="canonical" href="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/">
+<link rel="canonical" href="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/">
 
 
 <script class="page-configurations">
@@ -242,7 +242,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/github.jpg">
@@ -273,7 +273,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-02-02 21:29:02" itemprop="dateModified" datetime="2021-02-02T21:29:02+08:00">2021-02-02</time>
+        <time title="修改时间：2021-02-02 21:33:16" itemprop="dateModified" datetime="2021-02-02T21:33:16+08:00">2021-02-02</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -324,7 +324,7 @@
 <p>​    功能测试：依据人类智能的功能分类方式，可以将驾驶智能划分成信息感知、分析决策、动作执行等三大类能力。单一功能测试较多，综合测试涉及较少，无法检验多项功能之间的协同配合能力。</p>
 <p>​    语义网络：语义网络是一种采用网络形式表示人类知识的方法，用有向图来表达复杂的概念及其之间的相互关系。图中的顶点表示概念，而边则表示这些概念间的语义关系。</p>
 <p>​    通过广义的语义网络来定义无人驾驶车辆的智能：</p>
-<p><img src="/Zero165/Zero165.github.io/2021/01/29/%E6%99%BA%E8%83%BD%E8%BD%A6%E6%99%BA%E8%83%BD%E6%80%A7%E7%9A%84%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/blog\ScBlog\source\images\image-20210127140629374.png"></p>
+<p><img src="/Zero165/Zero165.github.io/2021/01/29/Test%20and%20design%20method%20of%20intelligent%20vehicle/.%5Cimages%5Cimage-20210127140629374.png"></p>
 <p>​                                                        图1：无人驾驶智能定义的语义关系图释</p>
 <p>图1从左到右包含场景、任务、单项能力和综合能力四类节点。</p>
 <p><strong>节点示例</strong>：</p>
